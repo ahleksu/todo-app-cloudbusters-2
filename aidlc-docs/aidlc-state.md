@@ -3,7 +3,7 @@
 ## Project Information
 - **Project Type**: Brownfield
 - **Start Date**: 2026-05-21T07:09:00Z
-- **Current Stage**: COMPLETE (Operations is placeholder)
+- **Current Stage**: COMPLETE (All Units 1, 2, 3, 4 — Operations is placeholder)
 
 ## Workspace State
 - **Existing Code**: Yes
@@ -32,15 +32,9 @@
 - [x] Application Design
 - [x] Units Generation
 
-### 🟢 CONSTRUCTION PHASE (Unit 2: Reminder Trigger Logic)
-- [x] Functional Design - SKIPPED (logic fully specified in contracts)
-- [x] NFR Requirements - SKIPPED (no new NFRs for this unit)
-- [x] NFR Design - SKIPPED (no NFR patterns needed)
-- [x] Infrastructure Design - SKIPPED (no infrastructure changes)
-- [x] Code Generation - COMPLETE
-- [x] Build and Test - COMPLETE
+### 🟢 CONSTRUCTION PHASE
 
-### 🟢 CONSTRUCTION PHASE (Unit 1: Notification Backend)
+#### Unit 1: Notification Backend — COMPLETE
 - [x] Functional Design - SKIPPED (logic fully specified in Contracts 1, 2, 3)
 - [x] NFR Requirements - SKIPPED (no new NFRs for this unit)
 - [x] NFR Design - SKIPPED (no NFR patterns needed)
@@ -48,18 +42,35 @@
 - [x] Code Generation - COMPLETE
 - [x] Build and Test - COMPLETE (55 tests passing — 40 unit + 15 integration)
 
-### 🟢 CONSTRUCTION PHASE (Unit 4: Reminder Form Integration)
+#### Unit 2: Reminder Trigger Logic — COMPLETE
+- [x] Functional Design - SKIPPED (logic fully specified in contracts)
+- [x] NFR Requirements - SKIPPED (no new NFRs for this unit)
+- [x] NFR Design - SKIPPED (no NFR patterns needed)
+- [x] Infrastructure Design - SKIPPED (no infrastructure changes)
+- [x] Code Generation - COMPLETE
+- [x] Build and Test - COMPLETE
+
+#### Unit 3: Notification Bell UI — COMPLETE
+- [x] Functional Design - SKIPPED (frontend-only; contracts fully specified in unit-of-work-dependency.md)
+- [x] NFR Requirements - SKIPPED
+- [x] NFR Design - SKIPPED
+- [x] Infrastructure Design - SKIPPED
+- [x] Code Generation - COMPLETE
+- [x] Build and Test - COMPLETE (verified `npm run build` succeeds)
+
+#### Unit 4: Reminder Form Integration — COMPLETE
 - [x] Functional Design - SKIPPED (frontend-only changes; specs in Contract 4/6)
 - [x] NFR Requirements - SKIPPED (no new NFRs)
-- [x] NFR Design - SKIPPED (no NFR patterns)
-- [x] Infrastructure Design - SKIPPED (no infrastructure)
+- [x] NFR Design - SKIPPED
+- [x] Infrastructure Design - SKIPPED
 - [x] Code Generation - COMPLETE
-- [x] Build and Test - Covered by shared build/test artifacts
+- [x] Build and Test - covered by build-and-test-summary.md
 
 ### 🟡 OPERATIONS PHASE
 - [ ] Operations - PLACEHOLDER (workflow effectively ends here)
 
 ## Current Status
-- **Lifecycle Phase**: AI-DLC workflow complete for Units 1, 2, and 4
-- **Current Stage**: Operations placeholder reached — workflow ended just before any git push (per user instruction)
-- **Status**: Branch `feat/aidlc` has uncommitted changes ready for human review. **No commit, no push performed.** Unit 3 (frontend bell UI) is out of scope for this cycle.
+- **Lifecycle Phase**: CONSTRUCTION (COMPLETE for all Units 1, 2, 3, 4)
+- **Current Stage**: All construction stages complete; merged Unit 3 (remote) with Units 1, 2, 4 (local)
+- **Next Stage**: Operations (PLACEHOLDER) — ready for presentation
+- **Status**: Branch `feat/aidlc` contains the integrated work for all four units.

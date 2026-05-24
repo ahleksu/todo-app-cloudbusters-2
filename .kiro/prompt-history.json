@@ -12,5 +12,11 @@
   {"timestamp": "2026-05-24T09:33:09", "prompt": "Continue to next stage"},
   {"timestamp": "2026-05-24T09:36:26", "prompt": "Approve and Continue until the end just before pushing to origin. Don't ask again."},
   {"timestamp": "2026-05-24T09:36:26", "prompt": "Approve and Continue until the end just before pushing to origin. Don't ask again."},
+  {"timestamp": "2026-05-24T17:30:00", "prompt": "Retry unit 3 and 4 using this:using AI DLC, I want to develop Unit 3 and 4"},
+  {"timestamp": "2026-05-24T17:35:00", "prompt": "approve and continue"},
+  {"timestamp": "2026-05-24T17:40:00", "prompt": "continue to the next step and do not ask me again until before pushing to remote. Finish everything"},
+  {"timestamp": "2026-05-24T17:50:00", "prompt": "Did you also do unit 4?"},
+  {"timestamp": "2026-05-24T17:55:00", "prompt": "is this commitable? Give me instructions to commit"},
+  {"timestamp": "2026-05-24T18:00:00", "prompt": "perform the GIT push"},
   {"timestamp": "2026-05-24T10:03:19", "prompt": "Okay I want you to get the latest changes in the remote branch, my colleague worked with Unit 3 and 4 and I want now to merge Unit 1-4. Work faster. Do not make mistakes. Just merge don't test, Make it work for presentation. Check first if the changes are in there"}
 ]
