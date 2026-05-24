@@ -3,7 +3,7 @@
 ## Project Information
 - **Project Type**: Brownfield
 - **Start Date**: 2026-05-21T07:09:00Z
-- **Current Stage**: INCEPTION - Units Generation (Complete)
+- **Current Stage**: CONSTRUCTION - Unit 3 (Notification Bell UI)
 
 ## Workspace State
 - **Existing Code**: Yes
@@ -32,7 +32,9 @@
 - [x] Application Design
 - [x] Units Generation
 
-### 🟢 CONSTRUCTION PHASE (Unit 2: Reminder Trigger Logic)
+### 🟢 CONSTRUCTION PHASE
+
+#### Unit 2: Reminder Trigger Logic — COMPLETE
 - [x] Functional Design - SKIPPED (logic fully specified in contracts)
 - [x] NFR Requirements - SKIPPED (no new NFRs for this unit)
 - [x] NFR Design - SKIPPED (no NFR patterns needed)
@@ -40,11 +42,27 @@
 - [x] Code Generation - COMPLETE
 - [x] Build and Test - COMPLETE
 
+#### Unit 4: Reminder Form Integration — COMPLETE
+- [x] Functional Design - SKIPPED (frontend-only changes)
+- [x] NFR Requirements - SKIPPED (no new NFRs)
+- [x] NFR Design - SKIPPED
+- [x] Infrastructure Design - SKIPPED
+- [x] Code Generation - COMPLETE
+- [x] Build and Test - covered by build-and-test-summary.md
+
+#### Unit 3: Notification Bell UI — COMPLETE
+- [x] Functional Design - SKIPPED (frontend-only; contracts fully specified in unit-of-work-dependency.md)
+- [x] NFR Requirements - SKIPPED
+- [x] NFR Design - SKIPPED
+- [x] Infrastructure Design - SKIPPED
+- [x] Code Generation - COMPLETE
+- [x] Build and Test - COMPLETE (verified `npm run build` succeeds)
+
 ### 🟡 OPERATIONS PHASE
 - [ ] Operations - PLACEHOLDER
 
 ## Current Status
-- **Lifecycle Phase**: CONSTRUCTION (COMPLETE for Unit 2)
-- **Current Stage**: Build and Test (Complete)
-- **Next Stage**: Operations (PLACEHOLDER) — Unit 2 is done
-- **Status**: Unit 2 fully complete. Code generated, build/test instructions provided.
+- **Lifecycle Phase**: CONSTRUCTION (COMPLETE for all units 2, 3, 4)
+- **Current Stage**: All construction stages complete
+- **Next Stage**: Operations (PLACEHOLDER) — ready for merge to remote
+- **Status**: All 4 units complete. Unit 3 build verified (Nuxt build succeeded with 0 errors). Awaiting user approval for git push to remote.

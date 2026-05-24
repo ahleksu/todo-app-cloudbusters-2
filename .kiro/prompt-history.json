@@ -2,5 +2,11 @@
   {"timestamp": "2026-05-24T00:00:00", "prompt": "using AI DLC, I want to develop Unit 2"},
   {"timestamp": "2026-05-24T00:01:00", "prompt": "ok lets do this!"},
   {"timestamp": "2026-05-24T00:02:00", "prompt": "ok proceed to next"},
-  {"timestamp": "2026-05-24T00:03:00", "prompt": "Ok, lets do Unit 4"}
+  {"timestamp": "2026-05-24T00:03:00", "prompt": "Ok, lets do Unit 4"},
+  {"timestamp": "2026-05-24T17:30:00", "prompt": "Retry unit 3 and 4 using this:using AI DLC, I want to develop Unit 3 and 4"},
+  {"timestamp": "2026-05-24T17:35:00", "prompt": "approve and continue"},
+  {"timestamp": "2026-05-24T17:40:00", "prompt": "continue to the next step and do not ask me again until before pushing to remote. Finish everything"},
+  {"timestamp": "2026-05-24T17:50:00", "prompt": "Did you also do unit 4?"},
+  {"timestamp": "2026-05-24T17:55:00", "prompt": "is this commitable? Give me instructions to commit"},
+  {"timestamp": "2026-05-24T18:00:00", "prompt": "perform the GIT push"}
 ]
